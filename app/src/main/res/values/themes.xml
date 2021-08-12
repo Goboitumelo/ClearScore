@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ClearScore" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/progressbar_secondary</item>
+        <item name="colorPrimaryVariant">@color/Score_number</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+    </style>
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circular_progressbar</item>
+    </style>
+</resources>
